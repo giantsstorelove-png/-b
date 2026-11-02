@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>関東ブロック 青少年発展育成祈願護摩 in 千葉念法寺</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Zen Kaku Gothic New & Shippori Mincho -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cream: '#FAF8F5',
+              softPink: '#F7E7E6',
+              peach: '#FCEFE9',
+              sage: '#E3EBE6',
+              coral: '#E77C68',
+              accent: '#D9735F',
+              charcoal: '#3B3635',
+              muted: '#7C7472'
+            }
+          },
+          fontFamily: {
+            sans: ['"Zen Kaku Gothic New"', 'sans-serif'],
+            serif: ['"Shippori Mincho"', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #FAF8F5;
+      color: #3B3635;
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+    }
+    .font-serif {
+      font-family: 'Shippori Mincho', serif;
+    }
+    /* ふんわりした背景ブロブ装飾 */
+    .blob {
+      filter: blur(40px);
+      z-index: 0;
+      opacity: 0.55;
+    }
+  </style>
+</head>
+<body class="relative overflow-x-hidden antialiased selection:bg-brand-softPink selection:text-brand-accent">
+
+  <!-- 背景デコレーション -->
+  <div class="blob absolute top-10 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full bg-brand-softPink pointer-events-none"></div>
+  <div class="blob absolute top-[800px] -right-20 w-72 h-72 rounded-full bg-brand-sage pointer-events-none"></div>
+  <div class="blob absolute top-[1800px] -left-20 w-80 h-80 rounded-full bg-brand-peach pointer-events-none"></div>
+
+  <!-- ナビゲーションバー -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-white/70 border-b border-rose-100/60 shadow-xs">
+    <div class="max-w-4xl mx-auto px-5 py-3.5 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-brand-coral inline-block"></span>
+        <span class="text-sm font-bold tracking-wider text-brand-charcoal">千葉念法寺</span>
+      </div>
+      <a href="#contact" class="text-xs md:text-sm font-medium bg-brand-coral text-white px-4 py-2 rounded-full hover:bg-brand-accent transition shadow-sm hover:shadow">
+        お問い合わせ
+      </a>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="relative pt-12 pb-16 px-5 max-w-3xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/80 border border-brand-softPink text-brand-accent text-xs md:text-sm font-medium mb-6 shadow-xs">
+      <i data-lucide="sparkles" class="w-4 h-4"></i>
+      <span>心と未来をととのえる、特別な祈りの時間</span>
+    </div>
+
+    <!-- キャッチコピー -->
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-brand-charcoal leading-snug sm:leading-tight mb-4">
+      関東ブロック<br class="sm:hidden"> 青少年発展育成祈願護摩<br>
+      <span class="text-xl sm:text-2xl md:text-3xl font-medium text-brand-accent mt-2 inline-block">
+        in 千葉念法寺
+      </span>
+    </h1>
+
+    <p class="text-brand-muted text-sm sm:text-base leading-relaxed max-w-lg mx-auto mb-8 font-normal">
+      これからの未来を歩む子どもたち・青年のすこやかな成長と、願いを一心に祈るお護摩。みんなで集まり、穏やかで前向きなひとときを過ごしませんか？
+    </p>
+
+    <!-- クイックインフォカード -->
+    <div class="bg-white/90 backdrop-blur-sm rounded-3xl p-6 sm:p-7 border border-brand-softPink/80 shadow-sm max-w-md mx-auto text-left space-y-3.5">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-2xl bg-brand-peach flex items-center justify-center text-brand-coral shrink-0">
+          <i data-lucide="calendar" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-brand-muted font-medium">開催日時</p>
+          <p class="text-base font-bold text-brand-charcoal">9月5日(土) 13:00 〜 17:00</p>
+          <p class="text-xs text-brand-coral font-medium mt-0.5">※ 受付開始 11:00〜</p>
+        </div>
+      </div>
+
+      <div class="h-px bg-stone-100"></div>
+
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-2xl bg-brand-sage flex items-center justify-center text-emerald-700 shrink-0">
+          <i data-lucide="users" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-brand-muted font-medium">対象</p>
+          <p class="text-sm sm:text-base font-bold text-brand-charcoal">子供から青年まで</p>
+        </div>
+      </div>
+
+      <div class="h-px bg-stone-100"></div>
+
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-2xl bg-brand-softPink flex items-center justify-center text-brand-coral shrink-0">
+          <i data-lucide="map-pin" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <p class="text-xs text-brand-muted font-medium">場所</p>
+          <p class="text-sm sm:text-base font-bold text-brand-charcoal">千葉念法寺 本堂</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- イベントの魅力ポイント -->
+  <section class="py-12 px-5 bg-white/70 border-y border-stone-100">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold tracking-widest text-brand-coral uppercase">POINT</span>
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-brand-charcoal mt-1">はじめてでも安心・心地よい時間</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <!-- カード1 -->
+        <div class="bg-brand-cream/80 p-6 rounded-3xl border border-stone-200/60 hover:shadow-sm transition">
+          <div class="w-10 h-10 rounded-2xl bg-white flex items-center justify-center text-brand-coral mb-4 shadow-2xs">
+            <i data-lucide="flame" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-base text-brand-charcoal mb-2">心洗われるお護摩の炎</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            立ちのぼる炎と清らかな祈りの中で、日々の悩みや迷いをリフレッシュ。自分らしく前へ進むパワーを授かります。
+          </p>
+        </div>
+
+        <!-- カード2 -->
+        <div class="bg-brand-cream/80 p-6 rounded-3xl border border-stone-200/60 hover:shadow-sm transition">
+          <div class="w-10 h-10 rounded-2xl bg-white flex items-center justify-center text-brand-coral mb-4 shadow-2xs">
+            <i data-lucide="camera" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-base text-brand-charcoal mb-2">笑顔で記念撮影</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            お護摩の後にはみんなで記念撮影。大切な節目となる1日を、温かい思い出として写真に残せます。
+          </p>
+        </div>
+
+        <!-- カード3 -->
+        <div class="bg-brand-cream/80 p-6 rounded-3xl border border-stone-200/60 hover:shadow-sm transition">
+          <div class="w-10 h-10 rounded-2xl bg-white flex items-center justify-center text-brand-coral mb-4 shadow-2xs">
+            <i data-lucide="coffee" class="w-5 h-5"></i>
+          </div>
+          <h3 class="font-bold text-base text-brand-charcoal mb-2">和やかな座談会</h3>
+          <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+            同年代の仲間と気兼ねなくおしゃべりできるリラックスタイム。新しいつながりや気づきが生まれるひとときです。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- プログラムタイムライン -->
+  <section class="py-16 px-5 max-w-2xl mx-auto">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold tracking-widest text-brand-coral uppercase">PROGRAM</span>
+      <h2 class="text-xl sm:text-2xl font-serif font-bold text-brand-charcoal mt-1">当日のスケジュール</h2>
+      <p class="text-xs sm:text-sm text-brand-muted mt-2">受付は11:00よりオープンしています</p>
+    </div>
+
+    <!-- タイムライン -->
+    <div class="relative border-l-2 border-brand-softPink ml-4 sm:ml-8 pl-6 sm:pl-8 space-y-7">
+      
+      <!-- 11:00 -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-brand-coral"></span>
+        <div class="bg-white p-4 rounded-2xl border border-stone-100 shadow-2xs">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-sm text-brand-coral tracking-wider font-mono">11:00</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 font-medium">OPEN</span>
+          </div>
+          <h3 class="text-base font-bold text-brand-charcoal">受付開始</h3>
+          <p class="text-xs text-brand-muted mt-1 leading-relaxed">
+            時間に余裕をもってお越しください。本堂の穏やかな空気を感じながらご準備いただけます。
+          </p>
+        </div>
+      </div>
+
+      <!-- 13:00 -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-brand-coral"></span>
+        <div class="bg-white p-4 rounded-2xl border-2 border-brand-coral/30 shadow-2xs">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-sm text-brand-coral tracking-wider font-mono">13:00</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-brand-softPink text-brand-coral font-medium">MAIN</span>
+          </div>
+          <h3 class="text-base font-bold text-brand-charcoal">お護摩開始</h3>
+          <p class="text-xs text-brand-muted mt-1 leading-relaxed">
+            関東ブロックの青年・子どもたちの成長と無事を祈念するお護摩を修法いたします。
+          </p>
+        </div>
+      </div>
+
+      <!-- 15:00 -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-brand-coral"></span>
+        <div class="bg-white p-4 rounded-2xl border border-stone-100 shadow-2xs">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-sm text-brand-coral tracking-wider font-mono">15:00</span>
+          </div>
+          <h3 class="text-base font-bold text-brand-charcoal">記念撮影</h3>
+          <p class="text-xs text-brand-muted mt-1 leading-relaxed">
+            ご参列いただいた皆さまと本堂前にて集合写真を撮影します。
+          </p>
+        </div>
+      </div>
+
+      <!-- 15:30 -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-white border-2 border-brand-coral"></span>
+        <div class="bg-white p-4 rounded-2xl border border-stone-100 shadow-2xs">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-sm text-brand-coral tracking-wider font-mono">15:30</span>
+          </div>
+          <h3 class="text-base font-bold text-brand-charcoal">座談会開始</h3>
+          <p class="text-xs text-brand-muted mt-1 leading-relaxed">
+            気軽な雰囲気の中で、普段感じていることやこれからの目標などをお話ししましょう。
+          </p>
+        </div>
+      </div>
+
+      <!-- 17:00 -->
+      <div class="relative group">
+        <span class="absolute -left-[31px] sm:-left-[39px] top-1.5 w-3.5 h-3.5 rounded-full bg-stone-300"></span>
+        <div class="bg-stone-50 p-4 rounded-2xl border border-stone-100">
+          <div class="flex items-center justify-between mb-1">
+            <span class="font-bold text-sm text-stone-500 tracking-wider font-mono">17:00</span>
+            <span class="text-[11px] px-2 py-0.5 rounded-full bg-stone-200 text-stone-600 font-medium">CLOSE</span>
+          </div>
+          <h3 class="text-base font-bold text-stone-700">終了・解散</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 持ち物チェックリスト -->
+  <section class="py-12 px-5 bg-brand-peach/50">
+    <div class="max-w-xl mx-auto">
+      <div class="text-center mb-8">
+        <span class="text-xs font-bold tracking-widest text-brand-coral uppercase">BELONGINGS</span>
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-brand-charcoal mt-1">当日の持ち物</h2>
+      </div>
+
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-brand-softPink shadow-sm space-y-4">
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 rounded-full bg-brand-softPink flex items-center justify-center text-brand-coral shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-brand-charcoal text-base">出仕道具一式</h4>
+            <p class="text-xs sm:text-sm text-brand-muted mt-0.5">お護摩に出仕される方は忘れずにお持ちください。</p>
+          </div>
+        </div>
+
+        <div class="h-px bg-stone-100"></div>
+
+        <div class="flex items-start gap-4">
+          <div class="w-8 h-8 rounded-full bg-brand-softPink flex items-center justify-center text-brand-coral shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-brand-charcoal text-base">筆記用具</h4>
+            <p class="text-xs sm:text-sm text-brand-muted mt-0.5">座談会やメモの際にご使用いただけます。</p>
+          </div>
+        </div>
+
+        <!-- ワンポイントアドバイス -->
+        <div class="mt-4 p-4 rounded-2xl bg-brand-cream border border-stone-100 text-xs text-brand-muted flex items-start gap-2.5">
+          <i data-lucide="info" class="w-4 h-4 text-brand-coral shrink-0 mt-0.5"></i>
+          <span>服装は、お寺の参拝に適した清潔感のある動きやすい服装でお越しください。</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- よくあるご質問 (Q&A) -->
+  <section class="py-14 px-5 max-w-2xl mx-auto">
+    <div class="text-center mb-10">
+      <span class="text-xs font-bold tracking-widest text-brand-coral uppercase">FAQ</span>
+      <h2 class="text-xl sm:text-2xl font-serif font-bold text-brand-charcoal mt-1">よくあるご質問</h2>
+    </div>
+
+    <div class="space-y-4">
+      <div class="bg-white p-5 rounded-2xl border border-stone-100 shadow-2xs">
+        <h3 class="font-bold text-sm sm:text-base text-brand-charcoal flex items-center gap-2">
+          <span class="text-brand-coral font-serif font-bold">Q.</span>
+          一人での参加でも大丈夫ですか？
+        </h3>
+        <p class="text-xs sm:text-sm text-brand-muted mt-2 pl-5 leading-relaxed">
+          もちろん大歓迎です！初めてお一人で参加される方もたくさんいらっしゃいます。座談会などでも気兼ねなくお話しできる温かい雰囲気ですので、安心していらしてください。
+        </p>
+      </div>
+
+      <div class="bg-white p-5 rounded-2xl border border-stone-100 shadow-2xs">
+        <h3 class="font-bold text-sm sm:text-base text-brand-charcoal flex items-center gap-2">
+          <span class="text-brand-coral font-serif font-bold">Q.</span>
+          途中の時間からの参加や、早退は可能ですか？
+        </h3>
+        <p class="text-xs sm:text-sm text-brand-muted mt-2 pl-5 leading-relaxed">
+          ご都合に合わせてご参加いただけます。事前にお電話または受付時にお申し出いただけますとスムーズです。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- アクセス & お問い合わせ -->
+  <section id="contact" class="py-16 px-5 bg-white border-t border-stone-100">
+    <div class="max-w-2xl mx-auto text-center">
+      <span class="text-xs font-bold tracking-widest text-brand-coral uppercase">ACCESS & CONTACT</span>
+      <h2 class="text-xl sm:text-2xl font-serif font-bold text-brand-charcoal mt-1 mb-8">開催場所・お問い合わせ</h2>
+
+      <div class="bg-brand-cream p-6 sm:p-8 rounded-3xl border border-stone-200/60 text-left space-y-6">
+        <div>
+          <h3 class="text-lg font-bold text-brand-charcoal mb-1">千葉念法寺</h3>
+          <p class="text-xs sm:text-sm text-brand-muted flex items-start gap-2">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-coral shrink-0 mt-0.5"></i>
+            <span>〒111-1111 千葉県○○市○○町1-1-1</span>
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-white border border-stone-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <p class="text-xs text-brand-muted font-medium">お電話でのお問い合わせ</p>
+            <p class="text-xl font-bold text-brand-charcoal font-mono tracking-wider mt-0.5">03-1111-1111</p>
+          </div>
+          <a href="tel:0311111111" class="inline-flex items-center justify-center gap-2 bg-brand-coral text-white text-sm font-bold px-5 py-3 rounded-full hover:bg-brand-accent transition shadow-sm">
+            <i data-lucide="phone" class="w-4 h-4"></i>
+            <span>電話をかける</span>
+          </a>
+        </div>
+
+        <p class="text-xs text-stone-400 text-center leading-relaxed">
+          ご不明な点やご相談がございましたら、お気軽に上記電話番号までお問い合わせください。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="py-8 px-5 bg-stone-50 border-t border-stone-100 text-center text-xs text-brand-muted">
+    <p>© 千葉念法寺 青少年発展育成祈願護摩 All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Lucide アイコンの初期化
+    lucide.createIcons();
+  </script>
+</body>
+</html>
